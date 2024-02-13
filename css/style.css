@@ -1,1 +1,34 @@
 /* Add styles here to make the soundboard actually look like a soundboard! */
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+#drumkit {
+  display: grid;
+  gap: 2rem;
+  background-color: gray;
+  padding: 1rem;
+  grid-template-columns: repeat(12, 1fr);
+  max-width: min-content;
+  border-radius: 10px;
+  outline: 4px solid darkgray;
+  border: 3px solid black;
+  box-shadow: 0px 2px 10px 2px #000;
+}
+
+button {
+  color: green;
+  font-weight: bolder;
+  width: 20rem;
+  border: 2px solid darkgreen;
+  background-color: gray;
+  border-radius: 5px;
+  outline: 2px solid darkgray;
+  box-shadow: 2px darkgray;
+}
