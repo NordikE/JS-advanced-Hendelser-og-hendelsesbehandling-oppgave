@@ -34,7 +34,7 @@ function createButtonAndAudio(sound) {
   //the audio element that is created should have the id equal to the textcontent created in 2.1.
   const audio = document.createElement("audio");
   audio.src = sound.file;
-  audio.id = button.textContent.toLowerCase();
+  audio.id = button.textContent;
 
   //2.3. add an eventlistner to the whole page that:
   //actives when pressing a keyboard key (first parameter of the eventlistener)
